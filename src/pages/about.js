@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
@@ -9,7 +10,7 @@ const AboutPage = () => {
   )
 }
 
-export const Head = () => <title>My Art</title>
+export const Head = () => <Seo title = "My Art"/>
 
 export default AboutPage
 
