@@ -7,5 +7,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `digitalArt`,
+        path: `${__dirname}/digitalArt`,
+      }
+    },
   ],
 }
