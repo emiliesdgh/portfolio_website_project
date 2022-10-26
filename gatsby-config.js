@@ -14,5 +14,7 @@ module.exports = {
         path: `${__dirname}/digitalArt`,
       }
     },
+    "gatsby-plugin-mdx",
+    "gatsby-remark-images",
   ],
 }
